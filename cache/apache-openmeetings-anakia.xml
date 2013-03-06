@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="apache"
+		module="openmeetings"
+		revision="working@shaohua-PC"
+		conf="anakia"
+		confs="anakia"
+		date="20130304225947"/>
+	<dependencies>
+		<module organisation="oro" name="oro">
+			<revision name="2.0.8" status="release" pubdate="20051109062901" resolver="central" artresolver="central" homepage="" downloaded="false" searched="false" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="2">
+				<metadata-artifact status="no" details="" size="2373" time="0" location="C:\Users\shaohua\.ivy2\cache\oro\oro\ivy-2.0.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="anakia" rev="2.0.8" rev-constraint-default="2.0.8" rev-constraint-dynamic="2.0.8" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="oro" type="jar" ext="jar" status="no" details="" size="65261" time="0" location="C:\Users\shaohua\.ivy2\cache\oro\oro\jars\oro-2.0.8.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="logkit" name="logkit">
+			<revision name="1.0.1" status="release" pubdate="20051109055124" resolver="central" artresolver="central" homepage="" downloaded="false" searched="false" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="1">
+				<metadata-artifact status="no" details="" size="2388" time="0" location="C:\Users\shaohua\.ivy2\cache\logkit\logkit\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/logkit/logkit/1.0.1/logkit-1.0.1.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="anakia" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="logkit" type="jar" ext="jar" status="no" details="" size="72150" time="0" location="C:\Users\shaohua\.ivy2\cache\logkit\logkit\jars\logkit-1.0.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/logkit/logkit/1.0.1/logkit-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jdom" name="jdom">
+			<revision name="1.1" status="release" pubdate="20080927022818" resolver="central" artresolver="central" homepage="http://www.jdom.org/" downloaded="false" searched="false" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="0">
+				<metadata-artifact status="no" details="" size="3501" time="0" location="C:\Users\shaohua\.ivy2\cache\org.jdom\jdom\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/jdom/jdom/1.1/jdom-1.1.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="anakia" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="jdom" type="jar" ext="jar" status="no" details="" size="153115" time="0" location="C:\Users\shaohua\.ivy2\cache\org.jdom\jdom\jars\jdom-1.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/jdom/jdom/1.1/jdom-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

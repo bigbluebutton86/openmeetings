@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.python</groupId>
+    <artifactId>jython-standalone</artifactId>
+    <version>2.5.2</version>
+    <packaging>jar</packaging>
+
+    <name>Jythone Standalone 2.5.2</name>
+    <url>http://www.jython.org/</url>
+    <description>The Jython Standalone installation is a Jython JAR also containing all Python standard libraries. The JAR can be recreated by following the 'Standalone mode' installation instructions: http://wiki.python.org/jython/InstallationInstructions.</description>
+
+    <licenses>
+        <license>
+            <name>The Jython License</name>
+            <url>http://www.jython.org/license.html</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>http://hg.python.org/jython</url>
+        <connection>scm:hg:http://hg.python.org/jython</connection>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Various</name>
+            <url>http://wiki.python.org/jython/WhosDoingWhat</url>
+            <roles>
+                <role>Admin</role>
+                <role>Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <configuration>
+                    <links>
+                        <value>http://java.sun.com/javase/6/docs/api/</value>
+                    </links>
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
+
+</project>

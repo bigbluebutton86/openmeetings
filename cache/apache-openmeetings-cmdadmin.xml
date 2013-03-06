@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="apache"
+		module="openmeetings"
+		revision="working@shaohua-PC"
+		conf="cmdadmin"
+		confs="cmdadmin"
+		date="20130304225929"/>
+	<dependencies>
+		<module organisation="commons-cli" name="commons-cli">
+			<revision name="1.2" status="release" pubdate="20090320040832" resolver="central" artresolver="central" homepage="http://commons.apache.org/cli/" downloaded="false" searched="false" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="0">
+				<metadata-artifact status="no" details="" size="4691" time="0" location="C:\Users\shaohua\.ivy2\cache\commons-cli\commons-cli\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="cmdadmin" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="commons-cli" type="jar" ext="jar" status="no" details="" size="41123" time="0" location="C:\Users\shaohua\.ivy2\cache\commons-cli\commons-cli\jars\commons-cli-1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="apache"
+		module="openmeetings"
+		revision="working@shaohua-PC"
+		conf="mainlib"
+		confs="mainlib"
+		date="20130304225903"/>
+	<dependencies>
+		<module organisation="cglib" name="cglib">
+			<revision name="2.2.2" status="release" pubdate="20110510215413" resolver="central" artresolver="central" homepage="http://cglib.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="7">
+				<license name="ASF 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2900" time="0" location="C:\Users\shaohua\.ivy2\cache\cglib\cglib\ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/cglib/cglib/2.2.2/cglib-2.2.2.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="default, mainlib" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="cglib" type="jar" ext="jar" status="no" details="" size="287192" time="0" location="C:\Users\shaohua\.ivy2\cache\cglib\cglib\jars\cglib-2.2.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/cglib/cglib/2.2.2/cglib-2.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="org.springframework.web.servlet">
+			<revision name="3.1.1.RELEASE" status="release" pubdate="20120217064203" resolver="springsource-release" artresolver="springsource-release" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="6">
+				<metadata-artifact status="no" details="" size="8916" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\org.springframework.web.servlet\ivy-3.1.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.web.servlet/3.1.1.RELEASE/org.springframework.web.servlet-3.1.1.RELEASE.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="default, mainlib" rev="3.1.1.RELEASE" rev-constraint-default="3.1.1.RELEASE" rev-constraint-dynamic="3.1.1.RELEASE" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="org.springframework.web.servlet" type="jar" ext="jar" status="no" details="" size="573701" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\org.springframework.web.servlet\jars\org.springframework.web.servlet-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.web.servlet/3.1.1.RELEASE/org.springframework.web.servlet-3.1.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="org.springframework.aspects">
+			<revision name="3.1.1.RELEASE" status="release" pubdate="20120217064150" resolver="springsource-release" artresolver="springsource-release" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="2">
+				<metadata-artifact status="no" details="" size="4154" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\org.springframework.aspects\ivy-3.1.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.aspects/3.1.1.RELEASE/org.springframework.aspects-3.1.1.RELEASE.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="default, mainlib" rev="3.1.1.RELEASE" rev-constraint-default="3.1.1.RELEASE" rev-constraint-dynamic="3.1.1.RELEASE" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="org.springframework.aspects" type="jar" ext="jar" status="no" details="" size="50332" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\org.springframework.aspects\jars\org.springframework.aspects-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.aspects/3.1.1.RELEASE/org.springframework.aspects-3.1.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="org.springframework.orm">
+			<revision name="3.1.1.RELEASE" status="release" pubdate="20120217064126" resolver="springsource-release" artresolver="springsource-release" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="4">
+				<metadata-artifact status="no" details="" size="6724" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\org.springframework.orm\ivy-3.1.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.orm/3.1.1.RELEASE/org.springframework.orm-3.1.1.RELEASE.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="default, mainlib" rev="3.1.1.RELEASE" rev-constraint-default="3.1.1.RELEASE" rev-constraint-dynamic="3.1.1.RELEASE" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="org.springframework.orm" type="jar" ext="jar" status="no" details="" size="378476" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\org.springframework.orm\jars\org.springframework.orm-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.orm/3.1.1.RELEASE/org.springframework.orm-3.1.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="org.springframework.jdbc">
+			<revision name="3.1.1.RELEASE" status="release" pubdate="20120217064058" resolver="springsource-release" artresolver="springsource-release" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="3">
+				<metadata-artifact status="no" details="" size="4215" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\org.springframework.jdbc\ivy-3.1.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.jdbc/3.1.1.RELEASE/org.springframework.jdbc-3.1.1.RELEASE.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="default, mainlib" rev="3.1.1.RELEASE" rev-constraint-default="3.1.1.RELEASE" rev-constraint-dynamic="3.1.1.RELEASE" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="org.springframework.jdbc" type="jar" ext="jar" status="no" details="" size="404732" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\org.springframework.jdbc\jars\org.springframework.jdbc-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.jdbc/3.1.1.RELEASE/org.springframework.jdbc-3.1.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="org.springframework.transaction">
+			<revision name="3.1.1.RELEASE" status="release" pubdate="20120217064021" resolver="springsource-release" artresolver="springsource-release" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="5">
+				<metadata-artifact status="no" details="" size="4832" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\org.springframework.transaction\ivy-3.1.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.transaction/3.1.1.RELEASE/org.springframework.transaction-3.1.1.RELEASE.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="default, mainlib" rev="3.1.1.RELEASE" rev-constraint-default="3.1.1.RELEASE" rev-constraint-dynamic="3.1.1.RELEASE" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="org.springframework.transaction" type="jar" ext="jar" status="no" details="" size="246719" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\org.springframework.transaction\jars\org.springframework.transaction-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.transaction/3.1.1.RELEASE/org.springframework.transaction-3.1.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.1" status="release" pubdate="20111004053236" resolver="central" artresolver="central" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="1">
+				<metadata-artifact status="no" details="" size="7913" time="0" location="C:\Users\shaohua\.ivy2\cache\commons-io\commons-io\ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-io/commons-io/2.1/commons-io-2.1.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="default, mainlib" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="163151" time="0" location="C:\Users\shaohua\.ivy2\cache\commons-io\commons-io\jars\commons-io-2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-io/commons-io/2.1/commons-io-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-fileupload" name="commons-fileupload">
+			<revision name="1.2.2" status="release" pubdate="20100730044112" resolver="central" artresolver="central" homepage="http://commons.apache.org/fileupload/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<metadata-artifact status="no" details="" size="6803" time="0" location="C:\Users\shaohua\.ivy2\cache\commons-fileupload\commons-fileupload\ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="default, mainlib" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="commons-fileupload" type="jar" ext="jar" status="no" details="" size="59590" time="0" location="C:\Users\shaohua\.ivy2\cache\commons-fileupload\commons-fileupload\jars\commons-fileupload-1.2.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

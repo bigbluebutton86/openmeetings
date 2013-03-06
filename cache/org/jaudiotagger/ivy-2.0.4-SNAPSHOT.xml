@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="org"
+		module="jaudiotagger"
+		revision="2.0.4-SNAPSHOT"
+		status="release"
+		publication="20130304105438"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="jaudiotagger" type="jar" ext="jar" conf="default"/>
+	</publications>
+</ivy-module>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.mnode"
+		module="mnode-parent"
+		revision="1.9"
+		status="release"
+		publication="20120128213515"
+	>
+		<license name="${pom.name} - License" url="${scm.url}/LICENSE" />
+		<description homepage="http://mnode.org/projects">
+		Common maven settings for all Micronode projects
+		</description>
+		<m:dependency.management__org.apache.jackrabbit__jackrabbit-jcr-rmi__version>2.3.7</m:dependency.management__org.apache.jackrabbit__jackrabbit-jcr-rmi__version>
+		<m:dependency.management__org.slf4j__jul-to-slf4j__version>1.6.4</m:dependency.management__org.slf4j__jul-to-slf4j__version>
+		<m:properties__slf4j.version>1.6.4</m:properties__slf4j.version>
+		<m:dependency.management__org.codehaus.groovy__groovy-all__version>1.8.5</m:dependency.management__org.codehaus.groovy__groovy-all__version>
+		<m:dependency.management__org.slf4j__log4j-over-slf4j__version>1.6.4</m:dependency.management__org.slf4j__log4j-over-slf4j__version>
+		<m:dependency.management__org.apache.jackrabbit__jackrabbit-webdav__version>2.3.7</m:dependency.management__org.apache.jackrabbit__jackrabbit-webdav__version>
+		<m:dependency.management__org.slf4j__jcl-over-slf4j__version>1.6.4</m:dependency.management__org.slf4j__jcl-over-slf4j__version>
+		<m:properties__groovy.version>1.8.5</m:properties__groovy.version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:dependency.management__org.slf4j__slf4j-api__version>1.6.4</m:dependency.management__org.slf4j__slf4j-api__version>
+		<m:dependency.management__org.apache.jackrabbit__jackrabbit-core__version>2.3.7</m:dependency.management__org.apache.jackrabbit__jackrabbit-core__version>
+		<m:dependency.management__org.slf4j__slf4j-log4j12__version>1.6.4</m:dependency.management__org.slf4j__slf4j-log4j12__version>
+		<m:dependency.management__org.spockframework__spock-core__version>0.5-groovy-1.8</m:dependency.management__org.spockframework__spock-core__version>
+		<m:properties__jackrabbit.version>2.3.7</m:properties__jackrabbit.version>
+		<m:dependency.management__junit__junit__version>4.10</m:dependency.management__junit__junit__version>
+		<m:properties__sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</m:properties__sonatypeOssDistMgmtSnapshotsUrl>
+		<m:dependency.management__ch.qos.logback__logback-classic__version>1.0.0</m:dependency.management__ch.qos.logback__logback-classic__version>
+		<m:properties__spock.version>0.5-groovy-1.8</m:properties__spock.version>
+		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|null__maven-compiler-plugin__2.3.2|org.apache.maven.plugins__maven-source-plugin__2.1.2</m:maven.plugins>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+	</publications>
+</ivy-module>

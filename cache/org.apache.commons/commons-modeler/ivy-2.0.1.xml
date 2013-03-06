@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="org.apache.commons"
+		module="commons-modeler"
+		revision="2.0.1"
+		status="release"
+		publication="20130304105233"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="commons-modeler" type="jar" ext="jar" conf="default"/>
+	</publications>
+</ivy-module>

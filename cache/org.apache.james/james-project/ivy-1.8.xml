@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.apache.james"
+		module="james-project"
+		revision="1.8"
+		status="release"
+		publication="20111119053806"
+	>
+		<description homepage="http://james.apache.org/">
+		The Apache Java Enterprise Mail Server (a.k.a. Apache James) is a 100% pure Java SMTP, IMAP and POP3 Mail server.
+        We have designed James to be a complete and portable enterprise mail engine solution based on currently available
+        open protocols. James is also a mail application platform. We have developed a Java API to let you write Java
+        code to process emails that we call the mailet API. A mailet can generate an automatic reply, update a database,
+        prevent spam, build a message archive, or whatever you can imagine. A matcher determines whether your mailet
+        should process an email in the server. The James project hosts the Mailet API, and James provides an implementation
+        of this mail application platform API.
+		</description>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__organization.logo>http://www.apache.org/images/asf_logo_wide.gif</m:properties__organization.logo>
+		<m:properties__distMgmtSnapshotsName>Apache Development Snapshot Repository</m:properties__distMgmtSnapshotsName>
+		<m:properties__target.jdk>1.6</m:properties__target.jdk>
+		<m:properties__james-skin.version>1.7</m:properties__james-skin.version>
+		<m:properties__distMgmtSnapshotsUrl>https://repository.apache.org/content/repositories/snapshots</m:properties__distMgmtSnapshotsUrl>
+		<m:properties__gpg.useagent>true</m:properties__gpg.useagent>
+		<m:maven.plugins>org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-doap-plugin__null|org.apache.maven.plugins__maven-site-plugin__null</m:maven.plugins>
+		<m:properties__sourceReleaseAssemblyDescriptor>source-release</m:properties__sourceReleaseAssemblyDescriptor>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+	</publications>
+</ivy-module>

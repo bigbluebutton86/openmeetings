@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="apache"
+		module="openmeetings"
+		revision="working@shaohua-PC"
+		conf="dtd"
+		confs="dtd"
+		date="20130304225927"/>
+	<dependencies>
+		<module organisation="com.thaiopensource" name="trang">
+			<revision name="20091111" status="release" pubdate="20101224044503" resolver="central" artresolver="central" homepage="http://code.google.com/p/jing-trang" downloaded="false" searched="false" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="0">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3163" time="0" location="C:\Users\shaohua\.ivy2\cache\com.thaiopensource\trang\ivy-20091111.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/thaiopensource/trang/20091111/trang-20091111.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="dtd" rev="20091111" rev-constraint-default="20091111" rev-constraint-dynamic="20091111" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="trang" type="jar" ext="jar" status="no" details="" size="846676" time="0" location="C:\Users\shaohua\.ivy2\cache\com.thaiopensource\trang\jars\trang-20091111.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/thaiopensource/trang/20091111/trang-20091111.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

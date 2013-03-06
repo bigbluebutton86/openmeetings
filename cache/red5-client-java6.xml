@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="red5"
+		module="client"
+		revision="working@shaohua-PC"
+		conf="java6"
+		confs="java6"
+		date="20130304225900"/>
+	<dependencies>
+		<module organisation="org.bouncycastle" name="bcprov-jdk16">
+			<revision name="1.45" status="release" pubdate="20100111123621" resolver="central" artresolver="central" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="34">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2759" time="0" location="C:\Users\shaohua\.ivy2\cache\org.bouncycastle\bcprov-jdk16\ivy-1.45.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk16/1.45/bcprov-jdk16-1.45.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="1.45" rev-constraint-default="1.45" rev-constraint-dynamic="1.45" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="bcprov-jdk16" type="jar" ext="jar" status="no" details="" size="1719483" time="0" location="C:\Users\shaohua\.ivy2\cache\org.bouncycastle\bcprov-jdk16\jars\bcprov-jdk16-1.45.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk16/1.45/bcprov-jdk16-1.45.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.aopalliance" name="com.springsource.org.aopalliance">
+			<revision name="1.0.0" status="release" pubdate="20090204212025" resolver="springsource-external" artresolver="springsource-external" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="33">
+				<metadata-artifact status="no" details="" size="2383" time="0" location="C:\Users\shaohua\.ivy2\cache\org.aopalliance\com.springsource.org.aopalliance\ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/external/org/aopalliance/com.springsource.org.aopalliance/1.0.0/com.springsource.org.aopalliance-1.0.0.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="com.springsource.org.aopalliance" type="jar" ext="jar" status="no" details="" size="4615" time="0" location="C:\Users\shaohua\.ivy2\cache\org.aopalliance\com.springsource.org.aopalliance\jars\com.springsource.org.aopalliance-1.0.0.jar">
+						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/external/org/aopalliance/com.springsource.org.aopalliance/1.0.0/com.springsource.org.aopalliance-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.cglib" name="com.springsource.net.sf.cglib">
+			<revision name="2.2.0" status="release" pubdate="20100804010917" resolver="springsource-external" artresolver="springsource-external" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="32">
+				<metadata-artifact status="no" details="" size="2561" time="0" location="C:\Users\shaohua\.ivy2\cache\net.sourceforge.cglib\com.springsource.net.sf.cglib\ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/external/net/sourceforge/cglib/com.springsource.net.sf.cglib/2.2.0/com.springsource.net.sf.cglib-2.2.0.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="com.springsource.net.sf.cglib" type="jar" ext="jar" status="no" details="" size="326877" time="0" location="C:\Users\shaohua\.ivy2\cache\net.sourceforge.cglib\com.springsource.net.sf.cglib\jars\com.springsource.net.sf.cglib-2.2.0.jar">
+						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/external/net/sourceforge/cglib/com.springsource.net.sf.cglib/2.2.0/com.springsource.net.sf.cglib-2.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org" name="jaudiotagger">
+			<revision name="2.0.4-SNAPSHOT" status="release" pubdate="20130304105438" resolver="chain" artresolver="chain" downloaded="false" searched="false" default="true" conf="default" position="31">
+				<metadata-artifact status="no" details="" size="430" time="0" location="C:\Users\shaohua\.ivy2\cache\org\jaudiotagger\ivy-2.0.4-SNAPSHOT.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="2.0.4-SNAPSHOT" rev-constraint-default="2.0.4-SNAPSHOT" rev-constraint-dynamic="2.0.4-SNAPSHOT" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="jaudiotagger" type="jar" ext="jar" status="no" details="" size="870066" time="0" location="C:\Users\shaohua\.ivy2\cache\org\jaudiotagger\jars\jaudiotagger-2.0.4-SNAPSHOT.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/org/jaudiotagger/2.0.4-SNAPSHOT/jaudiotagger-2.0.4-SNAPSHOT.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="mina" name="mina-core">
+			<revision name="2.0.4" status="release" pubdate="20130304105321" resolver="googlecode" artresolver="googlecode" downloaded="false" searched="false" default="true" conf="default" position="30">
+				<metadata-artifact status="no" details="" size="416" time="0" location="C:\Users\shaohua\.ivy2\cache\mina\mina-core\ivy-2.0.4.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="mina-core" type="jar" ext="jar" status="no" details="" size="644934" time="0" location="C:\Users\shaohua\.ivy2\cache\mina\mina-core\jars\mina-core-2.0.4.jar">
+						<origin-location is-local="false" location="http://red5.googlecode.com/svn/repository/mina/mina-core-2.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="mina" name="mina-integration-jmx">
+			<revision name="2.0.4" status="release" pubdate="20130304105317" resolver="googlecode" artresolver="googlecode" downloaded="false" searched="false" default="true" conf="default" position="29">
+				<metadata-artifact status="no" details="" size="438" time="0" location="C:\Users\shaohua\.ivy2\cache\mina\mina-integration-jmx\ivy-2.0.4.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="mina-integration-jmx" type="jar" ext="jar" status="no" details="" size="28171" time="0" location="C:\Users\shaohua\.ivy2\cache\mina\mina-integration-jmx\jars\mina-integration-jmx-2.0.4.jar">
+						<origin-location is-local="false" location="http://red5.googlecode.com/svn/repository/mina/mina-integration-jmx-2.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="mina" name="mina-integration-beans">
+			<revision name="2.0.4" status="release" pubdate="20130304105313" resolver="googlecode" artresolver="googlecode" downloaded="false" searched="false" default="true" conf="default" position="28">
+				<metadata-artifact status="no" details="" size="442" time="0" location="C:\Users\shaohua\.ivy2\cache\mina\mina-integration-beans\ivy-2.0.4.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="mina-integration-beans" type="jar" ext="jar" status="no" details="" size="40209" time="0" location="C:\Users\shaohua\.ivy2\cache\mina\mina-integration-beans\jars\mina-integration-beans-2.0.4.jar">
+						<origin-location is-local="false" location="http://red5.googlecode.com/svn/repository/mina/mina-integration-beans-2.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.xerces" name="com.springsource.org.apache.xerces">
+			<revision name="2.9.1" status="release" pubdate="20091012214840" resolver="springsource-external" artresolver="springsource-external" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="27">
+				<metadata-artifact status="no" details="" size="2767" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.xerces\com.springsource.org.apache.xerces\ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/external/org/apache/xerces/com.springsource.org.apache.xerces/2.9.1/com.springsource.org.apache.xerces-2.9.1.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="com.springsource.org.apache.xerces" type="jar" ext="jar" status="no" details="" size="1244694" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.xerces\com.springsource.org.apache.xerces\jars\com.springsource.org.apache.xerces-2.9.1.jar">
+						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/external/org/apache/xerces/com.springsource.org.apache.xerces/2.9.1/com.springsource.org.apache.xerces-2.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.ehcache" name="ehcache-core">
+			<revision name="2.5.0" status="release" pubdate="20111115035526" resolver="central" artresolver="central" homepage="http://ehcache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="26">
+				<license name="The Apache Software License, Version 2.0" url="src/assemble/EHCACHE-CORE-LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="15196" time="0" location="C:\Users\shaohua\.ivy2\cache\net.sf.ehcache\ehcache-core\ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/sf/ehcache/ehcache-core/2.5.0/ehcache-core-2.5.0.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="ehcache-core" type="jar" ext="jar" status="no" details="" size="1209286" time="0" location="C:\Users\shaohua\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.5.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/sf/ehcache/ehcache-core/2.5.0/ehcache-core-2.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.quartz-scheduler" name="quartz">
+			<revision name="1.8.5" status="release" pubdate="20110414113049" resolver="central" artresolver="central" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="25">
+				<metadata-artifact status="no" details="" size="5028" time="0" location="C:\Users\shaohua\.ivy2\cache\org.quartz-scheduler\quartz\ivy-1.8.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/quartz-scheduler/quartz/1.8.5/quartz-1.8.5.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="1.8.5" rev-constraint-default="1.8.5" rev-constraint-dynamic="1.8.5" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="quartz" type="jar" ext="jar" status="no" details="" size="446447" time="0" location="C:\Users\shaohua\.ivy2\cache\org.quartz-scheduler\quartz\jars\quartz-1.8.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/quartz-scheduler/quartz/1.8.5/quartz-1.8.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-pool">
+			<revision name="1.5.6" status="release" pubdate="20130304105237" resolver="apache" artresolver="apache" downloaded="false" searched="false" default="true" conf="default" position="24">
+				<metadata-artifact status="no" details="" size="436" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.commons\commons-pool\ivy-1.5.6.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="1.5.6" rev-constraint-default="1.5.6" rev-constraint-dynamic="1.5.6" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="commons-pool" type="jar" ext="jar" status="no" details="" size="100472" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.commons\commons-pool\jars\commons-pool-1.5.6.jar">
+						<origin-location is-local="false" location="https://repository.apache.org/content/repositories/releases/commons-pool/commons-pool/1.5.6/commons-pool-1.5.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-modeler">
+			<revision name="2.0.1" status="release" pubdate="20130304105233" resolver="sonatype" artresolver="sonatype" downloaded="false" searched="false" default="true" conf="default" position="23">
+				<metadata-artifact status="no" details="" size="442" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.commons\commons-modeler\ivy-2.0.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="commons-modeler" type="jar" ext="jar" status="no" details="" size="112005" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.commons\commons-modeler\jars\commons-modeler-2.0.1.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/central/commons-modeler/commons-modeler/2.0.1/commons-modeler-2.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.1" status="release" pubdate="20111115152705" resolver="central" artresolver="central" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="22">
+				<metadata-artifact status="no" details="" size="8044" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.commons\commons-lang3\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="315805" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.2" status="release" pubdate="20120517202639" resolver="central" artresolver="central" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="21">
+				<metadata-artifact status="no" details="" size="9409" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2/httpclient-4.2.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="4.2" rev-constraint-default="4.2" rev-constraint-dynamic="4.2" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="424648" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2/httpclient-4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.2.1" status="release" pubdate="20120610231325" resolver="central" artresolver="central" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="20">
+				<metadata-artifact status="no" details="" size="6757" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="4.2.1" rev-constraint-default="4.2.1" rev-constraint-dynamic="4.2.1" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="223374" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20130304105133" resolver="sonatype" artresolver="sonatype" downloaded="false" searched="false" default="true" conf="default" position="19">
+				<metadata-artifact status="no" details="" size="450" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.commons\commons-collections\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.commons\commons-collections\jars\commons-collections-3.2.1.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/central/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-codec">
+			<revision name="1.6" status="release" pubdate="20130304105127" resolver="apache" artresolver="apache" downloaded="false" searched="false" default="true" conf="default" position="18">
+				<metadata-artifact status="no" details="" size="436" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.commons\commons-codec\ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="232771" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.commons\commons-codec\jars\commons-codec-1.6.jar">
+						<origin-location is-local="false" location="https://repository.apache.org/content/repositories/releases/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-beanutils">
+			<revision name="1.8.3" status="release" pubdate="20130304105121" resolver="sonatype" artresolver="sonatype" downloaded="false" searched="false" default="true" conf="default" position="17">
+				<metadata-artifact status="no" details="" size="446" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.commons\commons-beanutils\ivy-1.8.3.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="commons-beanutils" type="jar" ext="jar" status="no" details="" size="232019" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.commons\commons-beanutils\jars\commons-beanutils-1.8.3.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/central/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="uk.org.lidalia" name="sysout-over-slf4j">
+			<revision name="1.0.2" status="release" pubdate="20110120080129" resolver="central" artresolver="central" homepage="http://projects.lidalia.org.uk/sysout-over-slf4j/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="16">
+				<license name="MIT X11 License" url="http://github.com/Mahoney/sysout-over-slf4j/raw/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4420" time="0" location="C:\Users\shaohua\.ivy2\cache\uk.org.lidalia\sysout-over-slf4j\ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/uk/org/lidalia/sysout-over-slf4j/1.0.2/sysout-over-slf4j-1.0.2.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="sysout-over-slf4j" type="jar" ext="jar" status="no" details="" size="44143" time="0" location="C:\Users\shaohua\.ivy2\cache\uk.org.lidalia\sysout-over-slf4j\jars\sysout-over-slf4j-1.0.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/uk/org/lidalia/sysout-over-slf4j/1.0.2/sysout-over-slf4j-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.0.3" status="release" pubdate="20120504063810" resolver="central" artresolver="central" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="14">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="11641" time="0" location="C:\Users\shaohua\.ivy2\cache\ch.qos.logback\logback-classic\ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.3/logback-classic-1.0.3.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="248737" time="0" location="C:\Users\shaohua\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.0.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.3/logback-classic-1.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.0.3" status="release" pubdate="20120504063655" resolver="central" artresolver="central" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="15">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="9589" time="0" location="C:\Users\shaohua\.ivy2\cache\ch.qos.logback\logback-core\ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.3/logback-core-1.0.3.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="332478" time="0" location="C:\Users\shaohua\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.0.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.3/logback-core-1.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.6.4" status="release" pubdate="20111101064641" resolver="central" artresolver="central" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="13">
+				<metadata-artifact status="no" details="" size="4749" time="0" location="C:\Users\shaohua\.ivy2\cache\org.slf4j\jcl-over-slf4j\ivy-1.6.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="jar" ext="jar" status="no" details="" size="17308" time="0" location="C:\Users\shaohua\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.6.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="log4j-over-slf4j">
+			<revision name="1.6.4" status="release" pubdate="20111101064650" resolver="central" artresolver="central" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="12">
+				<license name="Apache Software Licenses" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4850" time="0" location="C:\Users\shaohua\.ivy2\cache\org.slf4j\log4j-over-slf4j\ivy-1.6.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.6.4/log4j-over-slf4j-1.6.4.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="log4j-over-slf4j" type="jar" ext="jar" status="no" details="" size="20639" time="0" location="C:\Users\shaohua\.ivy2\cache\org.slf4j\log4j-over-slf4j\jars\log4j-over-slf4j-1.6.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.6.4/log4j-over-slf4j-1.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jul-to-slf4j">
+			<revision name="1.6.4" status="release" pubdate="20111101064659" resolver="central" artresolver="central" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="11">
+				<metadata-artifact status="no" details="" size="4781" time="0" location="C:\Users\shaohua\.ivy2\cache\org.slf4j\jul-to-slf4j\ivy-1.6.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.6.4/jul-to-slf4j-1.6.4.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="jul-to-slf4j" type="jar" ext="jar" status="no" details="" size="4868" time="0" location="C:\Users\shaohua\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.6.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.6.4/jul-to-slf4j-1.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.6.4" status="release" pubdate="20111101064538" resolver="central" artresolver="central" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="10">
+				<metadata-artifact status="no" details="" size="4570" time="0" location="C:\Users\shaohua\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.6.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="25962" time="0" location="C:\Users\shaohua\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.6.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-web">
+			<revision name="3.1.1.RELEASE" status="release" pubdate="20120217074242" resolver="central" artresolver="central" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10014" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\spring-web\ivy-3.1.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-web/3.1.1.RELEASE/spring-web-3.1.1.RELEASE.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="3.1.1.RELEASE" rev-constraint-default="3.1.1.RELEASE" rev-constraint-dynamic="3.1.1.RELEASE" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="spring-web" type="jar" ext="jar" status="no" details="" size="544291" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\spring-web\jars\spring-web-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-web/3.1.1.RELEASE/spring-web-3.1.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-context-support">
+			<revision name="3.1.1.RELEASE" status="release" pubdate="20120217074246" resolver="central" artresolver="central" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8685" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\spring-context-support\ivy-3.1.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-context-support/3.1.1.RELEASE/spring-context-support-3.1.1.RELEASE.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="3.1.1.RELEASE" rev-constraint-default="3.1.1.RELEASE" rev-constraint-dynamic="3.1.1.RELEASE" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="spring-context-support" type="jar" ext="jar" status="no" details="" size="107225" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\spring-context-support\jars\spring-context-support-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-context-support/3.1.1.RELEASE/spring-context-support-3.1.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-context">
+			<revision name="3.1.1.RELEASE" status="release" pubdate="20120217074244" resolver="central" artresolver="central" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="5">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11214" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\spring-context\ivy-3.1.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="3.1.1.RELEASE" rev-constraint-default="3.1.1.RELEASE" rev-constraint-dynamic="3.1.1.RELEASE" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="spring-context" type="jar" ext="jar" status="no" details="" size="831068" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\spring-context\jars\spring-context-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-expression">
+			<revision name="3.1.1.RELEASE" status="release" pubdate="20120217074241" resolver="central" artresolver="central" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="8">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6669" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\spring-expression\ivy-3.1.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-expression/3.1.1.RELEASE/spring-expression-3.1.1.RELEASE.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="3.1.1.RELEASE" rev-constraint-default="3.1.1.RELEASE" rev-constraint-dynamic="3.1.1.RELEASE" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="spring-expression" type="jar" ext="jar" status="no" details="" size="176311" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\spring-expression\jars\spring-expression-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-expression/3.1.1.RELEASE/spring-expression-3.1.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-aop">
+			<revision name="3.1.1.RELEASE" status="release" pubdate="20120217074243" resolver="central" artresolver="central" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7654" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\spring-aop\ivy-3.1.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-aop/3.1.1.RELEASE/spring-aop-3.1.1.RELEASE.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="3.1.1.RELEASE" rev-constraint-default="3.1.1.RELEASE" rev-constraint-dynamic="3.1.1.RELEASE" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="spring-aop" type="jar" ext="jar" status="no" details="" size="331471" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\spring-aop\jars\spring-aop-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-aop/3.1.1.RELEASE/spring-aop-3.1.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-beans">
+			<revision name="3.1.1.RELEASE" status="release" pubdate="20120217074245" resolver="central" artresolver="central" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7255" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\spring-beans\ivy-3.1.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-beans/3.1.1.RELEASE/spring-beans-3.1.1.RELEASE.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="3.1.1.RELEASE" rev-constraint-default="3.1.1.RELEASE" rev-constraint-dynamic="3.1.1.RELEASE" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="spring-beans" type="jar" ext="jar" status="no" details="" size="589824" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-beans/3.1.1.RELEASE/spring-beans-3.1.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-core">
+			<revision name="3.1.1.RELEASE" status="release" pubdate="20120217074240" resolver="central" artresolver="central" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7504" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\spring-core\ivy-3.1.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-core/3.1.1.RELEASE/spring-core-3.1.1.RELEASE.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="3.1.1.RELEASE" rev-constraint-default="3.1.1.RELEASE" rev-constraint-dynamic="3.1.1.RELEASE" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="spring-core" type="jar" ext="jar" status="no" details="" size="449324" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\spring-core\jars\spring-core-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-core/3.1.1.RELEASE/spring-core-3.1.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-asm">
+			<revision name="3.1.1.RELEASE" status="release" pubdate="20120217074243" resolver="central" artresolver="central" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5157" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\spring-asm\ivy-3.1.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-asm/3.1.1.RELEASE/spring-asm-3.1.1.RELEASE.pom"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="3.1.1.RELEASE" rev-constraint-default="3.1.1.RELEASE" rev-constraint-dynamic="3.1.1.RELEASE" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="spring-asm" type="jar" ext="jar" status="no" details="" size="53081" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\spring-asm\jars\spring-asm-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-asm/3.1.1.RELEASE/spring-asm-3.1.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax" name="javaee-api">
+			<revision name="5.1.2" status="release" pubdate="20130304104939" resolver="googlecode" artresolver="googlecode" downloaded="false" searched="false" default="true" conf="default" position="1">
+				<metadata-artifact status="no" details="" size="419" time="0" location="C:\Users\shaohua\.ivy2\cache\javax\javaee-api\ivy-5.1.2.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="5.1.2" rev-constraint-default="5.1.2" rev-constraint-dynamic="5.1.2" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="javaee-api" type="jar" ext="jar" status="no" details="" size="1975314" time="0" location="C:\Users\shaohua\.ivy2\cache\javax\javaee-api\jars\javaee-api-5.1.2.jar">
+						<origin-location is-local="false" location="http://red5.googlecode.com/svn/repository/javax/javaee-api-5.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="red5" name="red5-server">
+			<revision name="1.0-RC3-r4380" status="release" pubdate="20130304110225" resolver="googlecode" artresolver="googlecode" downloaded="false" searched="false" default="true" conf="default" position="0">
+				<metadata-artifact status="no" details="" size="428" time="0" location="C:\Users\shaohua\.ivy2\cache\red5\red5-server\ivy-1.0-RC3-r4380.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="red5" name="client" conf="default, java6" rev="1.0-RC3-r4380" rev-constraint-default="1.0-RC3-r4380" rev-constraint-dynamic="1.0-RC3-r4380" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="red5-server" type="jar" ext="jar" status="no" details="" size="965680" time="0" location="C:\Users\shaohua\.ivy2\cache\red5\red5-server\jars\red5-server-1.0-RC3-r4380.jar">
+						<origin-location is-local="false" location="http://red5.googlecode.com/svn/repository/red5/red5-server-1.0-RC3-r4380.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

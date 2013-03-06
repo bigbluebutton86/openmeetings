@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.apache.geronimo.specs"
+		module="geronimo-jaxws_2.2_spec"
+		revision="1.0"
+		status="release"
+		publication="20100422194305"
+	>
+		<description homepage="http://geronimo.apache.org/maven/${siteId}/${version}">
+		Java API for XML Web Services 2.2
+		</description>
+		<m:properties__siteId>specs/${artifactId}</m:properties__siteId>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__organization.logo>http://www.apache.org/images/asf_logo_wide.gif</m:properties__organization.logo>
+		<m:properties__distMgmtSnapshotsName>Apache Development Snapshot Repository</m:properties__distMgmtSnapshotsName>
+		<m:properties__site.deploy.url>scp://people.apache.org:/www/geronimo.apache.org</m:properties__site.deploy.url>
+		<m:properties__distMgmtSnapshotsUrl>https://repository.apache.org/content/repositories/snapshots</m:properties__distMgmtSnapshotsUrl>
+		<m:maven.plugins>org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.geronimo.genesis__genesis-maven-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.codehaus.mojo__ianal-maven-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.geronimo.genesis__genesis-maven-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.codehaus.mojo__ianal-maven-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-javadoc-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.geronimo.genesis__genesis-maven-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.codehaus.mojo__ianal-maven-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.geronimo.genesis__genesis-maven-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.codehaus.mojo__ianal-maven-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-javadoc-plugin__null|org.apache.felix__maven-bundle-plugin__null</m:maven.plugins>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="geronimo-jaxws_2.2_spec" type="bundle" ext="jar" conf="master"/>
+		<artifact name="geronimo-jaxws_2.2_spec" type="source" ext="jar" conf="sources" m:classifier="sources"/>
+		<artifact name="geronimo-jaxws_2.2_spec" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.apache.geronimo.specs" name="geronimo-osgi-locator" rev="1.0" force="true" conf="provided->compile(*),provided(*),runtime(*),master(*)"/>
+		<dependency org="org.apache.geronimo.specs" name="geronimo-saaj_1.3_spec" rev="1.1" force="true" conf="provided->compile(*),provided(*),runtime(*),master(*)"/>
+		<dependency org="org.apache.geronimo.specs" name="geronimo-stax-api_1.2_spec" rev="1.0" force="true" conf="provided->compile(*),provided(*),runtime(*),master(*)"/>
+		<dependency org="org.apache.geronimo.specs" name="geronimo-activation_1.1_spec" rev="1.1" force="true" conf="provided->compile(*),provided(*),runtime(*),master(*)"/>
+		<dependency org="org.apache.geronimo.specs" name="geronimo-jaxb_2.2_spec" rev="1.0" force="true" conf="provided->compile(*),provided(*),runtime(*),master(*)"/>
+	</dependencies>
+</ivy-module>

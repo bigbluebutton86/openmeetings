@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="apache"
+		module="openmeetings"
+		revision="working@shaohua-PC"
+		conf="mysql"
+		confs="mysql"
+		date="20130305092223"/>
+	<dependencies>
+		<module organisation="mysql" name="mysql-connector-java">
+			<revision name="5.1.22" status="release" pubdate="20120906082200" resolver="central" artresolver="central" homepage="http://dev.mysql.com/usingmysql/java/" downloaded="false" searched="false" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="0">
+				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/gpl.txt"/>
+				<metadata-artifact status="no" details="" size="2416" time="0" location="C:\Users\shaohua\.ivy2\cache\mysql\mysql-connector-java\ivy-5.1.22.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.22/mysql-connector-java-5.1.22.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="mysql" rev="5.1.22" rev-constraint-default="5.1.22" rev-constraint-dynamic="5.1.22" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="mysql-connector-java" type="jar" ext="jar" status="no" details="" size="832960" time="0" location="C:\Users\shaohua\.ivy2\cache\mysql\mysql-connector-java\jars\mysql-connector-java-5.1.22.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.22/mysql-connector-java-5.1.22.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

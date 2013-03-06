@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="apache"
+		module="openmeetings"
+		revision="working@shaohua-PC"
+		conf="openlaszlo"
+		confs="openlaszlo"
+		date="20130305092032"/>
+	<dependencies>
+		<module organisation="openlaszlo" name="openlaszlo">
+			<revision name="4.9" status="release" pubdate="20130304140703" resolver="googlecode" artresolver="googlecode" downloaded="false" searched="false" default="true" conf="default, *" position="0">
+				<metadata-artifact status="no" details="" size="422" time="0" location="C:\Users\shaohua\.ivy2\cache\openlaszlo\openlaszlo\ivy-4.9.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="apache" name="openmeetings" conf="openlaszlo" rev="4.9" rev-constraint-default="4.9" rev-constraint-dynamic="4.9" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="openlaszlo" type="tgz" ext="tgz" status="no" details="" size="43234394" time="0" location="C:\Users\shaohua\.ivy2\cache\openlaszlo\openlaszlo\tgzs\openlaszlo-4.9.tgz">
+						<origin-location is-local="false" location="http://openlaszlo-openmeetings-integration.googlecode.com/svn/repository/openlaszlo-4.9.tgz"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

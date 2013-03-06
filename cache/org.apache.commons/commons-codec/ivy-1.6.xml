@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="org.apache.commons"
+		module="commons-codec"
+		revision="1.6"
+		status="release"
+		publication="20130304105127"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="commons-codec" type="jar" ext="jar" conf="default"/>
+	</publications>
+</ivy-module>

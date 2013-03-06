@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="apache"
+		module="openmeetings"
+		revision="working@shaohua-PC"
+		conf="junit"
+		confs="junit"
+		date="20130304225928"/>
+	<dependencies>
+		<module organisation="ant-contrib" name="ant-contrib">
+			<revision name="1.0b3" status="release" pubdate="20101020154705" resolver="central" artresolver="central" homepage="http://ant-contrib.sourceforge.net" downloaded="false" searched="false" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="2">
+				<license name="Unknown License" url="http://ant-contrib.sourceforge.net/tasks/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2607" time="0" location="C:\Users\shaohua\.ivy2\cache\ant-contrib\ant-contrib\ivy-1.0b3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="junit" rev="1.0b3" rev-constraint-default="1.0b3" rev-constraint-dynamic="1.0b3" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="ant-contrib" type="jar" ext="jar" status="no" details="" size="224277" time="0" location="C:\Users\shaohua\.ivy2\cache\ant-contrib\ant-contrib\jars\ant-contrib-1.0b3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="org.springframework.test">
+			<revision name="3.1.1.RELEASE" status="release" pubdate="20120217064229" resolver="springsource-release" artresolver="springsource-release" homepage="" downloaded="false" searched="false" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="1">
+				<metadata-artifact status="no" details="" size="6136" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\org.springframework.test\ivy-3.1.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.test/3.1.1.RELEASE/org.springframework.test-3.1.1.RELEASE.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="junit" rev="3.1.1.RELEASE" rev-constraint-default="3.1.1.RELEASE" rev-constraint-dynamic="3.1.1.RELEASE" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="org.springframework.test" type="jar" ext="jar" status="no" details="" size="229725" time="0" location="C:\Users\shaohua\.ivy2\cache\org.springframework\org.springframework.test\jars\org.springframework.test-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.test/3.1.1.RELEASE/org.springframework.test-3.1.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.9" status="release" pubdate="20110823021546" resolver="central" artresolver="central" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="0">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2979" time="0" location="C:\Users\shaohua\.ivy2\cache\junit\junit\ivy-4.9.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/junit/junit/4.9/junit-4.9.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="junit" rev="4.9" rev-constraint-default="4.9" rev-constraint-dynamic="4.9" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="248994" time="0" location="C:\Users\shaohua\.ivy2\cache\junit\junit\jars\junit-4.9.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/junit/junit/4.9/junit-4.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

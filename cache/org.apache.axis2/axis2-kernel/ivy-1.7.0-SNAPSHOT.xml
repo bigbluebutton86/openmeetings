@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.apache.axis2"
+		module="axis2-kernel"
+		revision="1.7.0-SNAPSHOT"
+		status="integration"
+		publication="20130303212427"
+	>
+		<description homepage="http://axis.apache.org/axis2/java/core/">
+		Core Parts of Axis2. This includes Axis2 engine, Client API, Addressing support, etc.,
+		</description>
+		<m:properties__rhino.version>1.6R7</m:properties__rhino.version>
+		<m:dependency.management__org.apache.ws.commons.axiom__axiom-impl__version>1.2.15-SNAPSHOT</m:dependency.management__org.apache.ws.commons.axiom__axiom-impl__version>
+		<m:dependency.management__xml-resolver__xml-resolver__version>1.2</m:dependency.management__xml-resolver__xml-resolver__version>
+		<m:dependency.management__org.apache.ws.commons.axiom__axiom-api__version>1.2.15-SNAPSHOT</m:dependency.management__org.apache.ws.commons.axiom__axiom-api__version>
+		<m:properties__commons.httpclient.version>3.1</m:properties__commons.httpclient.version>
+		<m:properties__ant.version>1.7.0</m:properties__ant.version>
+		<m:dependency.management__org.eclipse.core__expressions__version>3.2.1-r321_v20060721</m:dependency.management__org.eclipse.core__expressions__version>
+		<m:dependency.management__org.eclipse__jface__version>3.2.1-M20060908-1000</m:dependency.management__org.eclipse__jface__version>
+		<m:properties__httpclient.version>4.2.1</m:properties__httpclient.version>
+		<m:properties__antlr.version>2.7.7</m:properties__antlr.version>
+		<m:properties__maven.artifact.version>2.0.8</m:properties__maven.artifact.version>
+		<m:dependency.management__bsf__bsf__version>2.4.0</m:dependency.management__bsf__bsf__version>
+		<m:properties__geronimo.spec.annotation.version>1.1</m:properties__geronimo.spec.annotation.version>
+		<m:dependency.management__log4j__log4j__exclusion_2>com.sun.jdmk__jmxtools</m:dependency.management__log4j__log4j__exclusion_2>
+		<m:dependency.management__commons-httpclient__commons-httpclient__version>3.1</m:dependency.management__commons-httpclient__commons-httpclient__version>
+		<m:dependency.management__log4j__log4j__exclusion_3>com.sun.jmx__jmxri</m:dependency.management__log4j__log4j__exclusion_3>
+		<m:dependency.management__log4j__log4j__exclusion_4>oro__oro</m:dependency.management__log4j__log4j__exclusion_4>
+		<m:properties__maven.version>2.0.7</m:properties__maven.version>
+		<m:dependency.management__log4j__log4j__exclusion_5>junit__junit</m:dependency.management__log4j__log4j__exclusion_5>
+		<m:properties__jaxbri.version>2.2.4</m:properties__jaxbri.version>
+		<m:dependency.management__log4j__log4j__exclusion_0>javax.mail__mail</m:dependency.management__log4j__log4j__exclusion_0>
+		<m:dependency.management__rhino__js__version>1.6R7</m:dependency.management__rhino__js__version>
+		<m:dependency.management__log4j__log4j__exclusion_1>javax.jms__jms</m:dependency.management__log4j__log4j__exclusion_1>
+		<m:properties__axiom.version>1.2.15-SNAPSHOT</m:properties__axiom.version>
+		<m:properties__stax.api.version>1.0.1</m:properties__stax.api.version>
+		<m:dependency.management__log4j__log4j__version>1.2.15</m:dependency.management__log4j__log4j__version>
+		<m:dependency.management__org.apache.maven__maven-artifact__version>2.0.8</m:dependency.management__org.apache.maven__maven-artifact__version>
+		<m:dependency.management__org.eclipse.equinox__common__version>3.2.0-v20060603</m:dependency.management__org.eclipse.equinox__common__version>
+		<m:dependency.management__org.apache.geronimo.specs__geronimo-activation_1.1_spec__version>1.0.2</m:dependency.management__org.apache.geronimo.specs__geronimo-activation_1.1_spec__version>
+		<m:properties__geronimo-spec.jta.version>1.1</m:properties__geronimo-spec.jta.version>
+		<m:properties__jsr311.api.version>1.1.1</m:properties__jsr311.api.version>
+		<m:properties__jaxws.tools.version>2.2.5</m:properties__jaxws.tools.version>
+		<m:dependency.management__org.apache.ws.commons.axiom__axiom-dom__version>1.2.15-SNAPSHOT</m:dependency.management__org.apache.ws.commons.axiom__axiom-dom__version>
+		<m:dependency.management__org.eclipse.core__jobs__version>3.2.0-v20060603</m:dependency.management__org.eclipse.core__jobs__version>
+		<m:dependency.management__org.apache.geronimo.specs__geronimo-saaj_1.3_spec__version>1.0.1</m:dependency.management__org.apache.geronimo.specs__geronimo-saaj_1.3_spec__version>
+		<m:dependency.management__org.apache.ws.commons.axiom__axiom-api__exclusion_1>xerces__xercesImpl</m:dependency.management__org.apache.ws.commons.axiom__axiom-api__exclusion_1>
+		<m:dependency.management__org.apache.woden__woden-core__version>1.0-SNAPSHOT</m:dependency.management__org.apache.woden__woden-core__version>
+		<m:dependency.management__org.apache.geronimo.specs__geronimo-ws-metadata_2.0_spec__version>1.1.2</m:dependency.management__org.apache.geronimo.specs__geronimo-ws-metadata_2.0_spec__version>
+		<m:properties__junit.version>4.4</m:properties__junit.version>
+		<m:properties__woden.version>1.0-SNAPSHOT</m:properties__woden.version>
+		<m:dependency.management__org.apache.ws.commons.axiom__axiom-api__exclusion_0>xml-apis__xml-apis</m:dependency.management__org.apache.ws.commons.axiom__axiom-api__exclusion_0>
+		<m:properties__maven.plugin.descriptor.version>2.0.7</m:properties__maven.plugin.descriptor.version>
+		<m:dependency.management__javax.servlet__servlet-api__version>2.3</m:dependency.management__javax.servlet__servlet-api__version>
+		<m:dependency.management__commons-cli__commons-cli__version>1.2</m:dependency.management__commons-cli__commons-cli__version>
+		<m:properties__plexus.classworlds.version>2.4</m:properties__plexus.classworlds.version>
+		<m:properties__organization.logo>http://www.apache.org/images/asf_logo_wide.gif</m:properties__organization.logo>
+		<m:properties__spring.version>2.5.1</m:properties__spring.version>
+		<m:dependency.management__wsdl4j__wsdl4j__version>1.6.2</m:dependency.management__wsdl4j__wsdl4j__version>
+		<m:dependency.management__com.sun.xml.bind__jaxb-xjc__version>2.2.4</m:dependency.management__com.sun.xml.bind__jaxb-xjc__version>
+		<m:dependency.management__org.apache.tomcat__juli__version>6.0.16</m:dependency.management__org.apache.tomcat__juli__version>
+		<m:properties__distMgmtSnapshotsUrl>https://repository.apache.org/content/repositories/snapshots</m:properties__distMgmtSnapshotsUrl>
+		<m:dependency.management__org.springframework__spring-web__version>2.5.1</m:dependency.management__org.springframework__spring-web__version>
+		<m:dependency.management__javax.xml.bind__jaxb-api__exclusion_1>javax.activation__activation</m:dependency.management__javax.xml.bind__jaxb-api__exclusion_1>
+		<m:dependency.management__javax.xml.bind__jaxb-api__exclusion_0>javax.xml.stream__stax-api</m:dependency.management__javax.xml.bind__jaxb-api__exclusion_0>
+		<m:properties__google.gson.version>2.1</m:properties__google.gson.version>
+		<m:dependency.management__org.apache.xmlbeans__xmlbeans__version>2.5.0</m:dependency.management__org.apache.xmlbeans__xmlbeans__version>
+		<m:dependency.management__junit__junit__version>4.4</m:dependency.management__junit__junit__version>
+		<m:dependency.management__commons-fileupload__commons-fileupload__version>1.2</m:dependency.management__commons-fileupload__commons-fileupload__version>
+		<m:dependency.management__org.apache.maven.shared__maven-plugin-testing-harness__version>1.1</m:dependency.management__org.apache.maven.shared__maven-plugin-testing-harness__version>
+		<m:maven.plugins>org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|null__maven-enforcer-plugin__1.1|null__maven-compiler-plugin__null|null__maven-clean-plugin__null|null__maven-surefire-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|org.apache.maven.plugins__maven-remote-resources-plugin__null|null__maven-enforcer-plugin__1.1|null__maven-compiler-plugin__null|null__maven-clean-plugin__null|null__maven-surefire-plugin__null|null__maven-remote-resources-plugin__null|null__maven-surefire-plugin__null|org.apache.maven.plugins__maven-antrun-plugin__null|null__maven-assembly-plugin__null</m:maven.plugins>
+		<m:dependency.management__com.sun.xml.ws__jaxws-rt__version>2.2.5</m:dependency.management__com.sun.xml.ws__jaxws-rt__version>
+		<m:dependency.management__org.eclipse.update__core__version>3.2.1-v20092006</m:dependency.management__org.eclipse.update__core__version>
+		<m:dependency.management__org.apache.maven.shared__maven-plugin-testing-harness__scope>test</m:dependency.management__org.apache.maven.shared__maven-plugin-testing-harness__scope>
+		<m:properties__xmlunit.version>1.3</m:properties__xmlunit.version>
+		<m:dependency.management__org.apache.httpcomponents__httpcore__version>4.2.1</m:dependency.management__org.apache.httpcomponents__httpcore__version>
+		<m:properties__commons.io.version>2.1</m:properties__commons.io.version>
+		<m:properties__geronimo.spec.javamail.version>1.6</m:properties__geronimo.spec.javamail.version>
+		<m:properties__commons.logging.version>1.1.1</m:properties__commons.logging.version>
+		<m:properties__distMgmtSnapshotsName>Apache Development Snapshot Repository</m:properties__distMgmtSnapshotsName>
+		<m:dependency.management__com.intellij__extensions__version>5.0</m:dependency.management__com.intellij__extensions__version>
+		<m:properties__stax.impl.version>3.2.9</m:properties__stax.impl.version>
+		<m:dependency.management__org.eclipse.ui__ide__version>3.2.1-M20060915-1030</m:dependency.management__org.eclipse.ui__ide__version>
+		<m:dependency.management__com.intellij__openapi__version>5.0</m:dependency.management__com.intellij__openapi__version>
+		<m:properties__plexus.utils.version>1.4.9</m:properties__plexus.utils.version>
+		<m:properties__geronimo.spec.metadata.version>1.1.2</m:properties__geronimo.spec.metadata.version>
+		<m:properties__wsdl4j.version>1.6.2</m:properties__wsdl4j.version>
+		<m:dependency.management__org.apache.neethi__neethi__version>3.0.3-SNAPSHOT</m:dependency.management__org.apache.neethi__neethi__version>
+		<m:dependency.management__org.eclipse.swt.win32.win32__x86__version>3.2.1-v3235</m:dependency.management__org.eclipse.swt.win32.win32__x86__version>
+		<m:dependency.management__com.sun.xml.ws__jaxws-tools__version>2.2.5</m:dependency.management__com.sun.xml.ws__jaxws-tools__version>
+		<m:dependency.management__org.apache.neethi__neethi__exclusion_0>org.codehaus.woodstox__woodstox-core-asl</m:dependency.management__org.apache.neethi__neethi__exclusion_0>
+		<m:dependency.management__org.apache.tomcat__tribes__version>6.0.16</m:dependency.management__org.apache.tomcat__tribes__version>
+		<m:dependency.management__commons-io__commons-io__version>2.1</m:dependency.management__commons-io__commons-io__version>
+		<m:dependency.management__org.apache.maven.plugins__maven-archetype-plugin__version>2.2</m:dependency.management__org.apache.maven.plugins__maven-archetype-plugin__version>
+		<m:dependency.management__org.codehaus.jettison__jettison__exclusion_0>stax__stax-api</m:dependency.management__org.codehaus.jettison__jettison__exclusion_0>
+		<m:properties__httpcore.version>4.2.1</m:properties__httpcore.version>
+		<m:properties__intellij.version>5.0</m:properties__intellij.version>
+		<m:properties__junit.version-jdk1.4>3.8.2</m:properties__junit.version-jdk1.4>
+		<m:dependency.management__javax.ws.rs__jsr311-api__version>1.1.1</m:dependency.management__javax.ws.rs__jsr311-api__version>
+		<m:dependency.management__org.codehaus.woodstox__wstx-asl__version>3.2.9</m:dependency.management__org.codehaus.woodstox__wstx-asl__version>
+		<m:dependency.management__org.apache.xmlbeans__xmlbeans__exclusion_0>stax__stax-api</m:dependency.management__org.apache.xmlbeans__xmlbeans__exclusion_0>
+		<m:dependency.management__org.apache.geronimo.specs__geronimo-javamail_1.4_spec__version>1.6</m:dependency.management__org.apache.geronimo.specs__geronimo-javamail_1.4_spec__version>
+		<m:dependency.management__org.codehaus.woodstox__wstx-asl__exclusion_0>stax__stax-api</m:dependency.management__org.codehaus.woodstox__wstx-asl__exclusion_0>
+		<m:dependency.management__xalan__xalan__version>2.7.0</m:dependency.management__xalan__xalan__version>
+		<m:properties__xml_resolver.version>1.2</m:properties__xml_resolver.version>
+		<m:properties__xmlbeans.version>2.5.0</m:properties__xmlbeans.version>
+		<m:dependency.management__xalan__xalan__exclusion_0>xml-apis__xml-apis</m:dependency.management__xalan__xalan__exclusion_0>
+		<m:dependency.management__org.eclipse__swt__version>3.2.1-v3235e</m:dependency.management__org.eclipse__swt__version>
+		<m:dependency.management__org.eclipse.ui__workbench__version>3.2.1-M20060906-0800</m:dependency.management__org.eclipse.ui__workbench__version>
+		<m:properties__stax.impl.artifact>wstx-asl</m:properties__stax.impl.artifact>
+		<m:dependency.management__jalopy__jalopy__version>1.5rc3</m:dependency.management__jalopy__jalopy__version>
+		<m:dependency.management__org.springframework__spring-beans__version>2.5.1</m:dependency.management__org.springframework__spring-beans__version>
+		<m:properties__bsf.version>2.4.0</m:properties__bsf.version>
+		<m:dependency.management__org.apache.geronimo.specs__geronimo-annotation_1.0_spec__version>1.1</m:dependency.management__org.apache.geronimo.specs__geronimo-annotation_1.0_spec__version>
+		<m:dependency.management__org.springframework__spring-core__version>2.5.1</m:dependency.management__org.springframework__spring-core__version>
+		<m:dependency.management__org.codehaus.plexus__plexus-utils__version>1.4.9</m:dependency.management__org.codehaus.plexus__plexus-utils__version>
+		<m:properties__stax.impl.groupid>org.codehaus.woodstox</m:properties__stax.impl.groupid>
+		<m:dependency.management__commons-logging__commons-logging__version>1.1.1</m:dependency.management__commons-logging__commons-logging__version>
+		<m:dependency.management__org.apache.httpcomponents__httpclient__version>4.2.1</m:dependency.management__org.apache.httpcomponents__httpclient__version>
+		<m:properties__log4j.version>1.2.15</m:properties__log4j.version>
+		<m:properties__xalan.version>2.7.0</m:properties__xalan.version>
+		<m:properties__commons.fileupload.version>1.2</m:properties__commons.fileupload.version>
+		<m:dependency.management__org.jibx__jibx-bind__version>1.2</m:dependency.management__org.jibx__jibx-bind__version>
+		<m:dependency.management__org.eclipse.core__resources__version>3.2.1-R32x_v20060914</m:dependency.management__org.eclipse.core__resources__version>
+		<m:properties__maven.plugin.testing.version>1.1</m:properties__maven.plugin.testing.version>
+		<m:properties__maven.archiver.version>2.2</m:properties__maven.archiver.version>
+		<m:dependency.management__com.google.code.gson__gson__version>2.1</m:dependency.management__com.google.code.gson__gson__version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:dependency.management__org.apache.geronimo.specs__geronimo-stax-api_1.0_spec__version>1.0.1</m:dependency.management__org.apache.geronimo.specs__geronimo-stax-api_1.0_spec__version>
+		<m:dependency.management__org.apache.maven__maven-project__version>2.0.7</m:dependency.management__org.apache.maven__maven-project__version>
+		<m:dependency.management__com.sun.xml.fastinfoset__FastInfoset__version>1.2.7</m:dependency.management__com.sun.xml.fastinfoset__FastInfoset__version>
+		<m:dependency.management__org.codehaus.plexus__plexus-classworlds__version>2.4</m:dependency.management__org.codehaus.plexus__plexus-classworlds__version>
+		<m:properties__neethi.version>3.0.3-SNAPSHOT</m:properties__neethi.version>
+		<m:dependency.management__org.eclipse.core__runtime__version>3.2.0-v20060603</m:dependency.management__org.eclipse.core__runtime__version>
+		<m:dependency.management__commons-lang__commons-lang__version>2.3</m:dependency.management__commons-lang__commons-lang__version>
+		<m:properties__geronimo.spec.activation.version>1.0.2</m:properties__geronimo.spec.activation.version>
+		<m:properties__jaxb.api.version>2.2.4</m:properties__jaxb.api.version>
+		<m:properties__jalopy.version>1.5rc3</m:properties__jalopy.version>
+		<m:properties__fi.version>1.2.7</m:properties__fi.version>
+		<m:properties__maven.archetype.plugin.version>2.2</m:properties__maven.archetype.plugin.version>
+		<m:properties__geronimo.spec.jaxws.version>1.0</m:properties__geronimo.spec.jaxws.version>
+		<m:properties__jettison.version>1.3</m:properties__jettison.version>
+		<m:dependency.management__org.apache.geronimo.specs__geronimo-jta_1.1_spec__version>1.1</m:dependency.management__org.apache.geronimo.specs__geronimo-jta_1.1_spec__version>
+		<m:dependency.management__org.codehaus.jettison__jettison__version>1.3</m:dependency.management__org.codehaus.jettison__jettison__version>
+		<m:properties__jaxws.rt.version>2.2.5</m:properties__jaxws.rt.version>
+		<m:dependency.management__org.apache.ant__ant-launcher__version>1.7.0</m:dependency.management__org.apache.ant__ant-launcher__version>
+		<m:properties__sourceReleaseAssemblyDescriptor>source-release</m:properties__sourceReleaseAssemblyDescriptor>
+		<m:dependency.management__xmlunit__xmlunit__version>1.3</m:dependency.management__xmlunit__xmlunit__version>
+		<m:dependency.management__org.aspectj__aspectjrt__version>1.6.1</m:dependency.management__org.aspectj__aspectjrt__version>
+		<m:properties__geronimo.spec.saaj.version>1.0.1</m:properties__geronimo.spec.saaj.version>
+		<m:dependency.management__org.apache.geronimo.specs__geronimo-jaxws_2.2_spec__version>1.0</m:dependency.management__org.apache.geronimo.specs__geronimo-jaxws_2.2_spec__version>
+		<m:dependency.management__javax.xml.bind__jaxb-api__version>2.2.4</m:dependency.management__javax.xml.bind__jaxb-api__version>
+		<m:properties__m2Repository>&apos;${settings.localRepository}&apos;</m:properties__m2Repository>
+		<m:properties__failIfNoTests>false</m:properties__failIfNoTests>
+		<m:dependency.management__org.jibx__jibx-run__version>1.2</m:dependency.management__org.jibx__jibx-run__version>
+		<m:dependency.management__org.apache.ws.commons.axiom__axiom-testutils__version>1.2.15-SNAPSHOT</m:dependency.management__org.apache.ws.commons.axiom__axiom-testutils__version>
+		<m:dependency.management__org.aspectj__aspectjweaver__version>1.6.1</m:dependency.management__org.aspectj__aspectjweaver__version>
+		<m:dependency.management__org.jibx__jibx-run__exclusion_0>org.codehaus.woodstox__wstx-asl</m:dependency.management__org.jibx__jibx-run__exclusion_0>
+		<m:properties__commons.codec.version>1.3</m:properties__commons.codec.version>
+		<m:dependency.management__jetty__jetty__version>5.1.10</m:dependency.management__jetty__jetty__version>
+		<m:dependency.management__commons-codec__commons-codec__version>1.3</m:dependency.management__commons-codec__commons-codec__version>
+		<m:properties__javax.mail.version>1.4</m:properties__javax.mail.version>
+		<m:dependency.management__org.apache.ant__ant__version>1.7.0</m:dependency.management__org.apache.ant__ant__version>
+		<m:dependency.management__org.apache.maven__maven-plugin-api__version>2.0.7</m:dependency.management__org.apache.maven__maven-plugin-api__version>
+		<m:dependency.management__org.eclipse__osgi__version>3.2.1-R32x_v20060919</m:dependency.management__org.eclipse__osgi__version>
+		<m:properties__xmlschema.version>1.4.8-SNAPSHOT</m:properties__xmlschema.version>
+		<m:properties__commons.lang.version>2.3</m:properties__commons.lang.version>
+		<m:properties__tomcat.version>6.0.16</m:properties__tomcat.version>
+		<m:properties__jibx.version>1.2</m:properties__jibx.version>
+		<m:dependency.management__org.apache.maven__maven-plugin-descriptor__version>2.0.7</m:dependency.management__org.apache.maven__maven-plugin-descriptor__version>
+		<m:dependency.management__org.springframework__spring-context__version>2.5.1</m:dependency.management__org.springframework__spring-context__version>
+		<m:properties__geronimo.spec.stax.version>1.0.1</m:properties__geronimo.spec.stax.version>
+		<m:dependency.management__org.apache.ws.commons.schema__XmlSchema__version>1.4.8-SNAPSHOT</m:dependency.management__org.apache.ws.commons.schema__XmlSchema__version>
+		<m:dependency.management__org.eclipse__ui__version>3.2.1-M20060913-0800</m:dependency.management__org.eclipse__ui__version>
+		<m:properties__servlet.api.version>2.3</m:properties__servlet.api.version>
+		<m:dependency.management__org.apache.maven__maven-archiver__version>2.2</m:dependency.management__org.apache.maven__maven-archiver__version>
+		<m:properties__commons.cli.version>1.2</m:properties__commons.cli.version>
+		<m:dependency.management__org.apache.ws.commons.axiom__axiom-jaxb__version>1.2.15-SNAPSHOT</m:dependency.management__org.apache.ws.commons.axiom__axiom-jaxb__version>
+		<m:dependency.management__com.sun.xml.bind__jaxb-impl__version>2.2.4</m:dependency.management__com.sun.xml.bind__jaxb-impl__version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="axis2-kernel" type="jar" ext="jar" conf="master"/>
+		<artifact name="axis2-kernel" type="source" ext="jar" conf="sources" m:classifier="sources"/>
+		<artifact name="axis2-kernel" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.apache.ws.commons.axiom" name="axiom-api" rev="1.2.15-SNAPSHOT" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)">
+			<exclude org="xml-apis" module="xml-apis" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="xerces" module="xercesImpl" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.apache.ws.commons.axiom" name="axiom-impl" rev="1.2.15-SNAPSHOT" force="true" conf="runtime->compile(*),runtime(*),master(*)"/>
+		<dependency org="org.apache.geronimo.specs" name="geronimo-ws-metadata_2.0_spec" rev="1.1.2" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.apache.geronimo.specs" name="geronimo-jta_1.1_spec" rev="1.1" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="javax.servlet" name="servlet-api" rev="2.3" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="commons-fileupload" name="commons-fileupload" rev="1.2" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="wsdl4j" name="wsdl4j" rev="1.6.2" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.apache.ws.commons.schema" name="XmlSchema" rev="1.4.8-SNAPSHOT" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.apache.neethi" name="neethi" rev="3.0.3-SNAPSHOT" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)">
+			<exclude org="org.codehaus.woodstox" module="woodstox-core-asl" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.apache.woden" name="woden-core" rev="1.0-SNAPSHOT" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="commons-logging" name="commons-logging" rev="1.1.1" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="javax.ws.rs" name="jsr311-api" rev="1.1.1" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="commons-io" name="commons-io" rev="2.1" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="junit" name="junit" rev="4.4" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="xmlunit" name="xmlunit" rev="1.3" force="true" conf="test->runtime(*),master(*)"/>
+		<override org="org.springframework" module="spring-beans" matcher="exact" rev="2.5.1"/>
+		<override org="org.apache.geronimo.specs" module="geronimo-ws-metadata_2.0_spec" matcher="exact" rev="1.1.2"/>
+		<override org="org.apache.geronimo.specs" module="geronimo-jta_1.1_spec" matcher="exact" rev="1.1"/>
+		<override org="org.apache.maven.shared" module="maven-plugin-testing-harness" matcher="exact" rev="1.1"/>
+		<override org="org.eclipse" module="jface" matcher="exact" rev="3.2.1-M20060908-1000"/>
+		<override org="xalan" module="xalan" matcher="exact" rev="2.7.0"/>
+		<override org="org.apache.tomcat" module="tribes" matcher="exact" rev="6.0.16"/>
+		<override org="org.apache.woden" module="woden-core" matcher="exact" rev="1.0-SNAPSHOT"/>
+		<override org="javax.xml.bind" module="jaxb-api" matcher="exact" rev="2.2.4"/>
+		<override org="org.apache.httpcomponents" module="httpclient" matcher="exact" rev="4.2.1"/>
+		<override org="org.apache.geronimo.specs" module="geronimo-activation_1.1_spec" matcher="exact" rev="1.0.2"/>
+		<override org="org.apache.maven" module="maven-project" matcher="exact" rev="2.0.7"/>
+		<override org="org.codehaus.jettison" module="jettison" matcher="exact" rev="1.3"/>
+		<override org="commons-cli" module="commons-cli" matcher="exact" rev="1.2"/>
+		<override org="org.springframework" module="spring-context" matcher="exact" rev="2.5.1"/>
+		<override org="jalopy" module="jalopy" matcher="exact" rev="1.5rc3"/>
+		<override org="com.sun.xml.ws" module="jaxws-tools" matcher="exact" rev="2.2.5"/>
+		<override org="org.eclipse.update" module="core" matcher="exact" rev="3.2.1-v20092006"/>
+		<override org="com.intellij" module="openapi" matcher="exact" rev="5.0"/>
+		<override org="com.google.code.gson" module="gson" matcher="exact" rev="2.1"/>
+		<override org="org.apache.ant" module="ant-launcher" matcher="exact" rev="1.7.0"/>
+		<override org="org.apache.ws.commons.axiom" module="axiom-impl" matcher="exact" rev="1.2.15-SNAPSHOT"/>
+		<override org="commons-codec" module="commons-codec" matcher="exact" rev="1.3"/>
+		<override org="javax.ws.rs" module="jsr311-api" matcher="exact" rev="1.1.1"/>
+		<override org="org.eclipse.ui" module="workbench" matcher="exact" rev="3.2.1-M20060906-0800"/>
+		<override org="org.eclipse.equinox" module="common" matcher="exact" rev="3.2.0-v20060603"/>
+		<override org="junit" module="junit" matcher="exact" rev="4.4"/>
+		<override org="org.apache.ws.commons.axiom" module="axiom-jaxb" matcher="exact" rev="1.2.15-SNAPSHOT"/>
+		<override org="xml-resolver" module="xml-resolver" matcher="exact" rev="1.2"/>
+		<override org="org.apache.geronimo.specs" module="geronimo-annotation_1.0_spec" matcher="exact" rev="1.1"/>
+		<override org="commons-io" module="commons-io" matcher="exact" rev="2.1"/>
+		<override org="org.apache.maven.plugins" module="maven-archetype-plugin" matcher="exact" rev="2.2"/>
+		<override org="commons-logging" module="commons-logging" matcher="exact" rev="1.1.1"/>
+		<override org="org.apache.maven" module="maven-archiver" matcher="exact" rev="2.2"/>
+		<override org="org.eclipse.swt.win32.win32" module="x86" matcher="exact" rev="3.2.1-v3235"/>
+		<override org="org.eclipse.core" module="resources" matcher="exact" rev="3.2.1-R32x_v20060914"/>
+		<override org="xmlunit" module="xmlunit" matcher="exact" rev="1.3"/>
+		<override org="commons-fileupload" module="commons-fileupload" matcher="exact" rev="1.2"/>
+		<override org="org.codehaus.woodstox" module="wstx-asl" matcher="exact" rev="3.2.9"/>
+		<override org="com.intellij" module="extensions" matcher="exact" rev="5.0"/>
+		<override org="commons-httpclient" module="commons-httpclient" matcher="exact" rev="3.1"/>
+		<override org="javax.servlet" module="servlet-api" matcher="exact" rev="2.3"/>
+		<override org="bsf" module="bsf" matcher="exact" rev="2.4.0"/>
+		<override org="org.codehaus.plexus" module="plexus-classworlds" matcher="exact" rev="2.4"/>
+		<override org="org.eclipse" module="osgi" matcher="exact" rev="3.2.1-R32x_v20060919"/>
+		<override org="com.sun.xml.fastinfoset" module="FastInfoset" matcher="exact" rev="1.2.7"/>
+		<override org="org.apache.ws.commons.axiom" module="axiom-dom" matcher="exact" rev="1.2.15-SNAPSHOT"/>
+		<override org="org.springframework" module="spring-core" matcher="exact" rev="2.5.1"/>
+		<override org="org.apache.ws.commons.axiom" module="axiom-api" matcher="exact" rev="1.2.15-SNAPSHOT"/>
+		<override org="com.sun.xml.ws" module="jaxws-rt" matcher="exact" rev="2.2.5"/>
+		<override org="rhino" module="js" matcher="exact" rev="1.6R7"/>
+		<override org="org.apache.httpcomponents" module="httpcore" matcher="exact" rev="4.2.1"/>
+		<override org="wsdl4j" module="wsdl4j" matcher="exact" rev="1.6.2"/>
+		<override org="org.apache.maven" module="maven-artifact" matcher="exact" rev="2.0.8"/>
+		<override org="org.springframework" module="spring-web" matcher="exact" rev="2.5.1"/>
+		<override org="org.apache.geronimo.specs" module="geronimo-javamail_1.4_spec" matcher="exact" rev="1.6"/>
+		<override org="org.apache.maven" module="maven-plugin-api" matcher="exact" rev="2.0.7"/>
+		<override org="jetty" module="jetty" matcher="exact" rev="5.1.10"/>
+		<override org="org.eclipse.core" module="jobs" matcher="exact" rev="3.2.0-v20060603"/>
+		<override org="org.codehaus.plexus" module="plexus-utils" matcher="exact" rev="1.4.9"/>
+		<override org="org.apache.ws.commons.schema" module="XmlSchema" matcher="exact" rev="1.4.8-SNAPSHOT"/>
+		<override org="org.eclipse" module="ui" matcher="exact" rev="3.2.1-M20060913-0800"/>
+		<override org="org.eclipse.core" module="runtime" matcher="exact" rev="3.2.0-v20060603"/>
+		<override org="org.apache.ant" module="ant" matcher="exact" rev="1.7.0"/>
+		<override org="org.apache.maven" module="maven-plugin-descriptor" matcher="exact" rev="2.0.7"/>
+		<override org="org.apache.geronimo.specs" module="geronimo-saaj_1.3_spec" matcher="exact" rev="1.0.1"/>
+		<override org="org.eclipse" module="swt" matcher="exact" rev="3.2.1-v3235e"/>
+		<override org="org.eclipse.ui" module="ide" matcher="exact" rev="3.2.1-M20060915-1030"/>
+		<override org="org.apache.tomcat" module="juli" matcher="exact" rev="6.0.16"/>
+		<override org="org.apache.neethi" module="neethi" matcher="exact" rev="3.0.3-SNAPSHOT"/>
+		<override org="org.apache.geronimo.specs" module="geronimo-jaxws_2.2_spec" matcher="exact" rev="1.0"/>
+		<override org="log4j" module="log4j" matcher="exact" rev="1.2.15"/>
+		<override org="org.aspectj" module="aspectjweaver" matcher="exact" rev="1.6.1"/>
+		<override org="commons-lang" module="commons-lang" matcher="exact" rev="2.3"/>
+		<override org="com.sun.xml.bind" module="jaxb-xjc" matcher="exact" rev="2.2.4"/>
+		<override org="org.jibx" module="jibx-bind" matcher="exact" rev="1.2"/>
+		<override org="org.apache.xmlbeans" module="xmlbeans" matcher="exact" rev="2.5.0"/>
+		<override org="org.aspectj" module="aspectjrt" matcher="exact" rev="1.6.1"/>
+		<override org="org.apache.ws.commons.axiom" module="axiom-testutils" matcher="exact" rev="1.2.15-SNAPSHOT"/>
+		<override org="org.eclipse.core" module="expressions" matcher="exact" rev="3.2.1-r321_v20060721"/>
+		<override org="org.apache.geronimo.specs" module="geronimo-stax-api_1.0_spec" matcher="exact" rev="1.0.1"/>
+		<override org="com.sun.xml.bind" module="jaxb-impl" matcher="exact" rev="2.2.4"/>
+		<override org="org.jibx" module="jibx-run" matcher="exact" rev="1.2"/>
+	</dependencies>
+</ivy-module>

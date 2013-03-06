@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.thaiopensource</groupId>
+  <artifactId>trang</artifactId>
+  <version>20091111</version>
+  <name>jing-trang</name>
+  <description>Jing/Trang - tools for validating and translating RelaxNG</description>
+  <url>http://code.google.com/p/jing-trang</url>
+  <licenses>
+    <license>
+      <name>New BSD License</name>
+      <url>http://www.opensource.org/licenses/bsd-license.php</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>http://jing-trang.googlecode.com/svn/trunk/</connection>
+    <url>http://code.google.com/p/jing-trang/source/browse/</url>
+  </scm>
+    <developers>
+        <developer>
+            <id>jclark</id>
+            <name>James Clark</name>
+            <email>jjc@jclark.com</email>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <id>bjacob</id>
+            <name>Bryon Jacob</name>
+            <email>bryon@jacobtx.net</email>
+            <roles>
+                <role>guy who uploaded to maven central repo</role>
+            </roles>
+        </developer>
+    </developers>
+  <dependencies>
+    <dependency>
+      <groupId>xerces</groupId>
+      <artifactId>xercesImpl</artifactId>
+      <version>2.9.1</version>
+    </dependency>
+    <dependency>
+      <groupId>xml-apis</groupId>
+      <artifactId>xml-apis</artifactId>
+      <version>2.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.saxon</groupId>
+      <artifactId>saxon</artifactId>
+      <version>8.7</version>
+    </dependency>
+    <dependency>
+      <groupId>isorelax</groupId>
+      <artifactId>isorelax</artifactId>
+      <version>20030108</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="apache"
+		module="openmeetings"
+		revision="working@shaohua-PC"
+		conf="tomcat7"
+		confs="tomcat7"
+		date="20130304225825"/>
+	<dependencies>
+		<module organisation="tomcatplugin" name="tomcatplugin">
+			<revision name="1.4" status="release" pubdate="20130304104927" resolver="googlecode" artresolver="googlecode" downloaded="false" searched="false" default="true" conf="default, *" position="4">
+				<metadata-artifact status="no" details="" size="428" time="0" location="C:\Users\shaohua\.ivy2\cache\tomcatplugin\tomcatplugin\ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="apache" name="openmeetings" conf="tomcat7" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="tomcatplugin" type="jar" ext="jar" status="no" details="" size="44727" time="0" location="C:\Users\shaohua\.ivy2\cache\tomcatplugin\tomcatplugin\jars\tomcatplugin-1.4.jar">
+						<origin-location is-local="false" location="http://openlaszlo-openmeetings-integration.googlecode.com/svn/repository/tomcatplugin-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-jasper">
+			<revision name="7.0.34" status="release" pubdate="20121205055054" resolver="central" artresolver="central" homepage="http://tomcat.apache.org/" downloaded="false" searched="false" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2863" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-jasper\ivy-7.0.34.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/7.0.34/tomcat-embed-jasper-7.0.34.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="tomcat7" rev="7.0.34" rev-constraint-default="7.0.34" rev-constraint-dynamic="7.0.34" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="tomcat-embed-jasper" type="jar" ext="jar" status="no" details="" size="792160" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-jasper\jars\tomcat-embed-jasper-7.0.34.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/7.0.34/tomcat-embed-jasper-7.0.34.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-core">
+			<revision name="7.0.34" status="release" pubdate="20121205054955" resolver="central" artresolver="central" homepage="http://tomcat.apache.org/" downloaded="false" searched="false" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="0">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2845" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-core\ivy-7.0.34.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/7.0.34/tomcat-embed-core-7.0.34.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="tomcat7" rev="7.0.34" rev-constraint-default="7.0.34" rev-constraint-dynamic="7.0.34" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="tomcat-embed-core" type="jar" ext="jar" status="no" details="" size="2568375" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-core\jars\tomcat-embed-core-7.0.34.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/7.0.34/tomcat-embed-core-7.0.34.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-logging-log4j">
+			<revision name="7.0.34" status="release" pubdate="20121205055126" resolver="central" artresolver="central" homepage="http://tomcat.apache.org/" downloaded="false" searched="false" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2570" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-logging-log4j\ivy-7.0.34.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-logging-log4j/7.0.34/tomcat-embed-logging-log4j-7.0.34.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="tomcat7" rev="7.0.34" rev-constraint-default="7.0.34" rev-constraint-dynamic="7.0.34" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="tomcat-embed-logging-log4j" type="jar" ext="jar" status="no" details="" size="83257" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-logging-log4j\jars\tomcat-embed-logging-log4j-7.0.34.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-logging-log4j/7.0.34/tomcat-embed-logging-log4j-7.0.34.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-logging-juli">
+			<revision name="7.0.34" status="release" pubdate="20121205055115" resolver="central" artresolver="central" homepage="http://tomcat.apache.org/" downloaded="false" searched="false" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2566" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-logging-juli\ivy-7.0.34.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-logging-juli/7.0.34/tomcat-embed-logging-juli-7.0.34.pom"/>
+				<caller organisation="apache" name="openmeetings" conf="tomcat7" rev="7.0.34" rev-constraint-default="7.0.34" rev-constraint-dynamic="7.0.34" callerrev="working@shaohua-PC"/>
+				<artifacts>
+					<artifact name="tomcat-embed-logging-juli" type="jar" ext="jar" status="no" details="" size="38160" time="0" location="C:\Users\shaohua\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-logging-juli\jars\tomcat-embed-logging-juli-7.0.34.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-logging-juli/7.0.34/tomcat-embed-logging-juli-7.0.34.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
